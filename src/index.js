@@ -1,31 +1,14 @@
-const { default: axios } = require('axios');
-const to = require('./vods-transform');
-const { removeRedundancy, getType } = require('./strings');
-const { MEDIASTREAM_API_URL } = require('./config');
+const { getVODS } = require('./utils/parser');
 
-function getVideoInfo({ id, title, slug, date_created }) {
-  const download = `https://mdstrm.com/video/${id}.mp4`;
-  const watch = `https://convencion.tv/video/${slug}`;
+const FORMAT = process.argv?.[2]?.toUpperCase();
 
-  return {
-    date: new Date(date_created),
-    type: getType(title),
-    title: removeRedundancy(title),
-    watch,
-    download
-  };
-}
-
-async function parseVODS() {
+async function printVODS() {
   try {
-    const { data: { data } } = await axios.get(MEDIASTREAM_API_URL);
-    const vods = data.map(getVideoInfo);
-    const text = to.CSV(vods);
+    const text = await getVODS(FORMAT);
     console.log(text);
-    return;
   } catch (error) {
     console.error(error);
   }
 }
 
-(parseVODS());
+(printVODS());
