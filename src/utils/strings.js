@@ -1,4 +1,4 @@
-const { DEFAULT_TYPE } = require('./config');
+const { DEFAULT_VIDEO_TYPE } = require('../config');
 
 function normalize(str) {
   return str
@@ -10,10 +10,9 @@ function normalize(str) {
 /**
  *
  * @param {string} title
- * @returns tipo de video según de acuerdo al título
+ * @returns tipo de video de acuerdo al título
  */
 function getType(title) {
-
   const types = [
     'subcomision',
     'comision',
@@ -21,10 +20,13 @@ function getType(title) {
     'cuenta publica'
   ];
   for (const type of types) {
-    if (normalize(title).includes(type)) return type;
+    if (normalize(title).includes(type))
+      return type.replace(' ', '_');
   }
-  return DEFAULT_TYPE;
+  return DEFAULT_VIDEO_TYPE;
 }
+
+function has2Spaces(txt) { return txt.includes('  '); }
 
 function removeRedundancy(title) {
   let clean = normalize(title);
@@ -34,7 +36,7 @@ function removeRedundancy(title) {
   clean = clean.replace(/-/g, ' ');
   do {
     clean = clean.replace(/\s\s/g, ' ');
-  } while (clean.includes('  '));
+  } while (has2Spaces(clean));
   return clean.trim();
 }
 
