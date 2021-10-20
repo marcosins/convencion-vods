@@ -1,9 +1,5 @@
 node_modules
 package-lock.json
-*.html
-*.csv
-*.json
-*.txt
 
-# package debe estar al final
+# package.json debe estar al final
 !package.json
