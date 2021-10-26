@@ -11,7 +11,7 @@ function generateList(𝑓) {
 }
 
 /**
- *
+ * Transforma un objeto video en una linea CSV
  * @param {Object} vod
  * @param {Date} vod.date
  * @param {string} vod.type
@@ -20,7 +20,8 @@ function generateList(𝑓) {
  * @param {string} vod.download
  * @returns Datos de un video deparados por coma (`,`)
  */
-function vodToCSV({ date, type, title, watch, download }) {
+function vodToCSV(vod) {
+  const { date, type, title, watch, download } = vod;
   return `${date.toISOString()}${SEPARATOR}` +
     `${type}${SEPARATOR}` +
     `${title}${SEPARATOR}` +
@@ -29,7 +30,7 @@ function vodToCSV({ date, type, title, watch, download }) {
 }
 
 /**
- *
+ * Transforma un objeto video en un texto plano
  * @param {Object} vod
  * @param {Date} vod.date
  * @param {string} vod.type
@@ -38,7 +39,8 @@ function vodToCSV({ date, type, title, watch, download }) {
  * @param {string} vod.download
  * @returns Listado de videos
  */
-function vodToTEXT({ date, type, title, watch, download }) {
+function vodToTEXT(vod) {
+  const { date, type, title, watch, download } = vod;
   const timeOptions = { dateStyle: 'full', timeZone: 'America/Santiago' };
   return `TITULO: ${title}\n` +
     `SITIO OFICIAL: ${watch}\n` +
@@ -48,9 +50,9 @@ function vodToTEXT({ date, type, title, watch, download }) {
 }
 
 /**
- *
+ * Transforma una lista de videos en formato CSV
  * @param {[{date: Date, title: string, watch: string, download: string}]} vods
- * @returns Lista de videos donde cada linea tiene datos separados por punto y coma (`;`). Ver `SEPARATOR` en `config/index.js`
+ * @returns {string} Lista de videos donde cada linea tiene datos separados por coma (`,`). Ver `SEPARATOR` en `config/index.js`
  */
 function toCSV(vods) {
   const CSV_HEADER = `FECHA${SEPARATOR}` +
@@ -62,18 +64,18 @@ function toCSV(vods) {
 }
 
 /**
- *
+ * Transforma una lista de videos en formato JSON
  * @param {[{date: Date, title: string, watch: string, download: string}]} vods
- * @returns JSON con identacion de 2 espacios
+ * @returns {string} JSON con identacion de 2 espacios
  */
 function toJSON(vods) {
   return JSON.stringify(vods, undefined, FORMAT_INDENT);
 }
 
 /**
- *
+ * Transforma una lista de videos en texto plano
  * @param {[{date: Date, title: string, watch: string, download: string}]} vods
- * @returns Informacion de los videos
+ * @returns {string} Informacion de los videos
  */
 function toTEXT(vods) {
   return vods.reduce(generateList(vodToTEXT), '');

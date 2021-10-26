@@ -8,9 +8,9 @@ function normalize(str) {
 }
 
 /**
- *
+ * Determina el tipo de un video dependiendo del titulo
  * @param {string} title
- * @returns tipo de video de acuerdo al título
+ * @returns {string} tipo de video de acuerdo al título
  */
 function getType(title) {
   const types = [
