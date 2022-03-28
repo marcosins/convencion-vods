@@ -1,5 +1,502 @@
 [
   {
+    "date": "2022-03-26T15:59:12.077Z",
+    "type": "comision",
+    "title": "comision sistemas de conocimientos n°63 sabado 26 de marzo",
+    "watch": "https://convencion.tv/video/comision-sistemas-de-conocimientos-n63-sabado-26-de-marzo-2022",
+    "download": "https://mdstrm.com/video/623f38507d4ffe08317f3466.mp4"
+  },
+  {
+    "date": "2022-03-25T21:04:27.505Z",
+    "type": "pleno",
+    "title": "pleno sesion n°75 viernes 25 de marzo",
+    "watch": "https://convencion.tv/video/pleno-sesion-n75-viernes-25-de-marzo-2022-1",
+    "download": "https://mdstrm.com/video/623e2e5b28825f0821a98f25.mp4"
+  },
+  {
+    "date": "2022-03-25T16:53:50.812Z",
+    "type": "pleno",
+    "title": "pleno sesion n°75 viernes 25 de marzo",
+    "watch": "https://convencion.tv/video/pleno-sesion-n75-viernes-25-de-marzo-2022",
+    "download": "https://mdstrm.com/video/623df39e891ef60820a03f4d.mp4"
+  },
+  {
+    "date": "2022-03-25T16:31:30.433Z",
+    "type": "otro",
+    "title": "cilp intervencion cristian urbina",
+    "watch": "https://convencion.tv/video/cilp-intervencion-cristian-urbina",
+    "download": "https://mdstrm.com/video/623dee62d74d2f7f3319d0e0.mp4"
+  },
+  {
+    "date": "2022-03-25T02:12:34.829Z",
+    "type": "comision",
+    "title": "comision derechos fundamentales n°56 jueves 24 de marzo",
+    "watch": "https://convencion.tv/video/comision-derechos-fundamentales-n56-jueves-24-de-marzo-2022-2",
+    "download": "https://mdstrm.com/video/623d25123345ea083030d0fb.mp4"
+  },
+  {
+    "date": "2022-03-25T01:12:44.802Z",
+    "type": "comision",
+    "title": "comision derechos fundamentales n°56 jueves 24 de marzo",
+    "watch": "https://convencion.tv/video/comision-derechos-fundamentales-n56-jueves-24-de-marzo-2022-1",
+    "download": "https://mdstrm.com/video/623d170c355d500835a5cb7e.mp4"
+  },
+  {
+    "date": "2022-03-25T00:14:59.850Z",
+    "type": "comision",
+    "title": "comision sistemas de conocimientos n°62 jueves 24 de marzo",
+    "watch": "https://convencion.tv/video/comision-sistemas-de-conocimientos-n62-jueves-24-de-marzo-2022",
+    "download": "https://mdstrm.com/video/623d0983bbaa060827711d9f.mp4"
+  },
+  {
+    "date": "2022-03-24T16:49:23.177Z",
+    "type": "comision",
+    "title": "comision sistemas de conocimientos nº61 jueves 24 de marzo",
+    "watch": "https://convencion.tv/video/comision-sistemas-de-conocimientos-n61-jueves-24-de-marzo-2022",
+    "download": "https://mdstrm.com/video/623ca1131e4b7538dee7f51f.mp4"
+  },
+  {
+    "date": "2022-03-24T16:39:46.764Z",
+    "type": "comision",
+    "title": "comision principios constitucionales nº56 jueves 24 de marzo",
+    "watch": "https://convencion.tv/video/comision-principios-constitucionales-n56-jueves-24-de-marzo-2022",
+    "download": "https://mdstrm.com/video/623c9ed2d7479c4315c76087.mp4"
+  },
+  {
+    "date": "2022-03-24T16:32:15.853Z",
+    "type": "comision",
+    "title": "comision derechos fundamentales n°56 jueves 24 de marzo",
+    "watch": "https://convencion.tv/video/comision-derechos-fundamentales-n56-jueves-24-de-marzo-2022",
+    "download": "https://mdstrm.com/video/623c9d0f1e4b7538dee7f483.mp4"
+  },
+  {
+    "date": "2022-03-24T15:12:00.398Z",
+    "type": "comision",
+    "title": "comision forma de estado n°56 jueves 24 de marzo",
+    "watch": "https://convencion.tv/video/comision-forma-de-estado-n56-jueves-24-de-marzo-2022",
+    "download": "https://mdstrm.com/video/623c8a40e1d6ff083099f1ed.mp4"
+  },
+  {
+    "date": "2022-03-23T21:04:19.659Z",
+    "type": "pleno",
+    "title": "pleno sesion n°74 miercoles 23 de marzo",
+    "watch": "https://convencion.tv/video/pleno-sesion-n74-miercoles-23-de-marzo-2022",
+    "download": "https://mdstrm.com/video/623b8b5345ec4505cfd79740.mp4"
+  },
+  {
+    "date": "2022-03-23T17:15:32.914Z",
+    "type": "comision",
+    "title": "comision sistemas de conocimientos nº60 miercoles 23 de marzo",
+    "watch": "https://convencion.tv/video/comision-sistemas-de-conocimientos-n60-miercoles-23-de-marzo-2022",
+    "download": "https://mdstrm.com/video/623b55b4613b6a49449d4543.mp4"
+  },
+  {
+    "date": "2022-03-23T16:37:16.698Z",
+    "type": "comision",
+    "title": "comision derechos fundamentales n°55 miercoles 23 de marzo",
+    "watch": "https://convencion.tv/video/comision-derechos-fundamentales-n55-miercoles-23-de-marzo-2022",
+    "download": "https://mdstrm.com/video/623b4cbc36ae303c89035b4c.mp4"
+  },
+  {
+    "date": "2022-03-23T16:09:02.139Z",
+    "type": "comision",
+    "title": "comision principios constitucionales n°55 miercoles 23 de marzo",
+    "watch": "https://convencion.tv/video/comision-principios-constitucionales-n55-miercoles-23-de-marzo-2022",
+    "download": "https://mdstrm.com/video/623b461e689abb0837fecd1d.mp4"
+  },
+  {
+    "date": "2022-03-23T15:21:12.774Z",
+    "type": "otro",
+    "title": "convencion al dia miercoles 23 de marzo del",
+    "watch": "https://convencion.tv/video/convencion-al-dia-miercoles-23-de-marzo-del-2022",
+    "download": "https://mdstrm.com/video/623b3ae8d3cc34082bc8f130.mp4"
+  },
+  {
+    "date": "2022-03-22T22:11:01.008Z",
+    "type": "pleno",
+    "title": "pleno sesion n°73 martes 22 de marzo",
+    "watch": "https://convencion.tv/video/pleno-sesion-n73-martes-22-de-marzo-2022",
+    "download": "https://mdstrm.com/video/623a49753d2b0d082cea04af.mp4"
+  },
+  {
+    "date": "2022-03-22T16:43:11.554Z",
+    "type": "otro",
+    "title": "convencion al dia martes 22 de marzo del",
+    "watch": "https://convencion.tv/video/convencion-al-dia-martes-22-de-marzo-del-2022",
+    "download": "https://mdstrm.com/video/6239fc9f36ca7707ab27c13d.mp4"
+  },
+  {
+    "date": "2022-03-22T16:18:42.655Z",
+    "type": "pleno",
+    "title": "pleno sesion n°72 martes 22 de marzo",
+    "watch": "https://convencion.tv/video/pleno-sesion-n72-martes-22-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6239f6e2dc721b294c159fad.mp4"
+  },
+  {
+    "date": "2022-03-22T15:23:15.884Z",
+    "type": "comision",
+    "title": "comision forma de estado n°55 martes 22 de marzo",
+    "watch": "https://convencion.tv/video/comision-forma-de-estado-n55-martes-22-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6239e9e314117d082f219e54.mp4"
+  },
+  {
+    "date": "2022-03-22T15:08:30.687Z",
+    "type": "comision",
+    "title": "comision sistema politico n°53 martes 22 de marzo",
+    "watch": "https://convencion.tv/video/comision-sistema-politico-n53-martes-22-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6239e66e96cd1f60e72210f7.mp4"
+  },
+  {
+    "date": "2022-03-22T14:49:26.744Z",
+    "type": "comision",
+    "title": "comision derechos fundamentales n°54 martes 22 de marzo",
+    "watch": "https://convencion.tv/video/comision-derechos-fundamentales-n54-martes-22-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6239e1f6fa894f60f6197f7c.mp4"
+  },
+  {
+    "date": "2022-03-21T23:13:32.491Z",
+    "type": "comision",
+    "title": "comision forma de estado nº54 lunes 21 de marzo",
+    "watch": "https://convencion.tv/video/comision-forma-de-estado-n54-lunes-21-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6239069cfa894f60f61222d9.mp4"
+  },
+  {
+    "date": "2022-03-21T23:08:19.964Z",
+    "type": "comision",
+    "title": "comision derechos fundamentales n°53 lunes 21 de marzo",
+    "watch": "https://convencion.tv/video/comision-derechos-fundamentales-n53-lunes-21-de-marzo-2022",
+    "download": "https://mdstrm.com/video/623905632deb440821f931e3.mp4"
+  },
+  {
+    "date": "2022-03-21T19:23:58.679Z",
+    "type": "comision",
+    "title": "comision participacion popular n°19 lunes 21 de marzo",
+    "watch": "https://convencion.tv/video/comision-participacion-popular-n19-lunes-21-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6238d0ced74d0655740d4dd2.mp4"
+  },
+  {
+    "date": "2022-03-21T19:15:17.154Z",
+    "type": "comision",
+    "title": "comision derechos de pueblos indigenas y plurinacionalidad n°25 lunes 21 de marzo",
+    "watch": "https://convencion.tv/video/comision-derechos-de-pueblos-indigenas-y-plurinacionalidad-n25-lunes-21-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6238cec5a0866371a3d249c7.mp4"
+  },
+  {
+    "date": "2022-03-21T16:58:03.471Z",
+    "type": "comision",
+    "title": "comision sistema politico n°52 lunes 21 de marzo",
+    "watch": "https://convencion.tv/video/comision-sistema-politico-n52-lunes-21-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6238ae9b38b82d08222c8a9d.mp4"
+  },
+  {
+    "date": "2022-03-21T16:38:32.950Z",
+    "type": "comision",
+    "title": "comision forma de estado n°53 lunes 21 de marzo",
+    "watch": "https://convencion.tv/video/comision-forma-de-estado-n53-lunes-21-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6238aa08d179d90822182604.mp4"
+  },
+  {
+    "date": "2022-03-21T16:29:10.083Z",
+    "type": "comision",
+    "title": "comision principios constitucionales n°54 lunes 21 de marzo",
+    "watch": "https://convencion.tv/video/comision-principios-constitucionales-n54-lunes-21-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6238a7d6d179d908221825aa.mp4"
+  },
+  {
+    "date": "2022-03-21T16:26:02.348Z",
+    "type": "subcomision",
+    "title": "subcomision n°3 derechos fundamentales n°5 lunes 21 de marzo",
+    "watch": "https://convencion.tv/video/subcomision-n3-derechos-fundamentales-n5-lunes-21-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6238a71aa63e2c08269ca518.mp4"
+  },
+  {
+    "date": "2022-03-21T16:13:22.560Z",
+    "type": "subcomision",
+    "title": "subcomision n°4 derechos fundamentales n°5 lunes 21 de marzo",
+    "watch": "https://convencion.tv/video/subcomision-n4-derechos-fundamentales-n5-lunes-21-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6238a42238b82d08222c88da.mp4"
+  },
+  {
+    "date": "2022-03-21T15:30:24.405Z",
+    "type": "otro",
+    "title": "convencion al dia lunes 21 de marzo",
+    "watch": "https://convencion.tv/video/convencion-al-dia-lunes-21-de-marzo-2022",
+    "download": "https://mdstrm.com/video/62389a10c349e8085ca12a69.mp4"
+  },
+  {
+    "date": "2022-03-19T23:47:00.251Z",
+    "type": "comision",
+    "title": "comision medio ambiente n°62 sabado 19 marzo",
+    "watch": "https://convencion.tv/video/comision-medio-ambiente-n62-sabado-19-marzo-2022",
+    "download": "https://mdstrm.com/video/62366b7492a35136152051f4.mp4"
+  },
+  {
+    "date": "2022-03-19T22:27:17.250Z",
+    "type": "comision",
+    "title": "comision sistemas de conocimientos n°59 sabado 19 de marzo",
+    "watch": "https://convencion.tv/video/comision-sistemas-de-conocimientos-n59-sabado-19-de-marzo-2022-1",
+    "download": "https://mdstrm.com/video/623658c5c03cff083014e320.mp4"
+  },
+  {
+    "date": "2022-03-19T19:17:47.420Z",
+    "type": "comision",
+    "title": "comision medio ambiente n°62 sabado 19 de marzo a",
+    "watch": "https://convencion.tv/video/comision-medio-ambiente-n62-sabado-19-de-marzo-2022-a",
+    "download": "https://mdstrm.com/video/62362c5b08fcd4450be32a93.mp4"
+  },
+  {
+    "date": "2022-03-19T19:04:26.092Z",
+    "type": "comision",
+    "title": "comision sistemas de conocimientos n°59 sabado 19 de marzo",
+    "watch": "https://convencion.tv/video/comision-sistemas-de-conocimientos-n59-sabado-19-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6236293a3f25cf083072e996.mp4"
+  },
+  {
+    "date": "2022-03-19T17:09:50.159Z",
+    "type": "comision",
+    "title": "comision principios constitucionales n°53 sabado 19 de marzo",
+    "watch": "https://convencion.tv/video/comision-principios-constitucionales-n53-sabado-19-de-marzo-2022",
+    "download": "https://mdstrm.com/video/62360e5ec62ccb759c72f68b.mp4"
+  },
+  {
+    "date": "2022-03-19T01:44:01.943Z",
+    "type": "pleno",
+    "title": "pleno sesion n°71 viernes 18 de marzo",
+    "watch": "https://convencion.tv/video/pleno-sesion-n71-viernes-18-de-marzo-2022-1",
+    "download": "https://mdstrm.com/video/623535616fb3e70831a39412.mp4"
+  },
+  {
+    "date": "2022-03-19T00:51:01.720Z",
+    "type": "otro",
+    "title": "clip elisa loncon jueves 17 de marzo (no categorizar)",
+    "watch": "https://convencion.tv/video/clip-elisa-loncon-jueves-17-de-marzo-2022-no-categorizar",
+    "download": "https://mdstrm.com/video/623528f56fb3e708319c13e3.mp4"
+  },
+  {
+    "date": "2022-03-18T17:15:02.088Z",
+    "type": "pleno",
+    "title": "pleno sesion n°71 viernes 18 de marzo",
+    "watch": "https://convencion.tv/video/pleno-sesion-n71-viernes-18-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6234be1664b72676f016a88f.mp4"
+  },
+  {
+    "date": "2022-03-18T15:10:07.362Z",
+    "type": "otro",
+    "title": "convencion al dia viernes 18 de marzo",
+    "watch": "https://convencion.tv/video/convencion-al-dia-viernes-18-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6234a0cfb16afc0830436350.mp4"
+  },
+  {
+    "date": "2022-03-18T01:55:08.730Z",
+    "type": "pleno",
+    "title": "pleno sesion n°70 jueves 17 de marzo",
+    "watch": "https://convencion.tv/video/pleno-sesion-n70-jueves-17-de-marzo-2022-1",
+    "download": "https://mdstrm.com/video/6233e67c4500930833aeb27e.mp4"
+  },
+  {
+    "date": "2022-03-17T23:15:39.474Z",
+    "type": "pleno",
+    "title": "pleno sesion n°70 jueves 17 de marzo",
+    "watch": "https://convencion.tv/video/pleno-sesion-n70-jueves-17-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6233c11b35ac1e0843a7998d.mp4"
+  },
+  {
+    "date": "2022-03-17T21:56:32.059Z",
+    "type": "otro",
+    "title": "clip elisa loncon jueves 17 marzo (no categorizar)",
+    "watch": "https://convencion.tv/video/clip-elisa-loncon-jueves-17-marzo-2022-no-categorizar",
+    "download": "https://mdstrm.com/video/6233ae9068c65d72a6ebb428.mp4"
+  },
+  {
+    "date": "2022-03-17T17:00:04.406Z",
+    "type": "comision",
+    "title": "comision medio ambiente n°61 jueves 17 de marzo",
+    "watch": "https://convencion.tv/video/comision-medio-ambiente-n61-jueves-17-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6233691452133e3c72f81e8d.mp4"
+  },
+  {
+    "date": "2022-03-17T16:53:41.774Z",
+    "type": "comision",
+    "title": "comision derechos fundamentales n°52 jueves 17 de marzo",
+    "watch": "https://convencion.tv/video/comision-derechos-fundamentales-n52-jueves-17-de-marzo-2022",
+    "download": "https://mdstrm.com/video/62336795b02a9c082b93fec4.mp4"
+  },
+  {
+    "date": "2022-03-17T16:29:05.861Z",
+    "type": "comision",
+    "title": "comision sistema politico n°51 jueves 17 de marzo",
+    "watch": "https://convencion.tv/video/comision-sistema-politico-n51-jueves-17-de-marzo-2022",
+    "download": "https://mdstrm.com/video/623361d131aad20839129074.mp4"
+  },
+  {
+    "date": "2022-03-17T16:27:08.194Z",
+    "type": "comision",
+    "title": "comision sistema de justicia n°55 jueves 17 de marzo",
+    "watch": "https://convencion.tv/video/comision-sistema-de-justicia-n55-jueves-17-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6233615cb02a9c082b93fde9.mp4"
+  },
+  {
+    "date": "2022-03-17T16:04:20.768Z",
+    "type": "subcomision",
+    "title": "subcomision n°4 derechos fundamentales n°4 jueves 17 de marzo",
+    "watch": "https://convencion.tv/video/subcomision-n4-derechos-fundamentales-n4-jueves-17-de-marzo-2022",
+    "download": "https://mdstrm.com/video/62335c0452133e3c72f81c38.mp4"
+  },
+  {
+    "date": "2022-03-17T15:46:12.021Z",
+    "type": "comision",
+    "title": "comision forma de estado n°52 jueves 17 de marzo",
+    "watch": "https://convencion.tv/video/comision-forma-de-estado-n52-jueves-17-de-marzo-2022",
+    "download": "https://mdstrm.com/video/623357c452133e3c72f81bd5.mp4"
+  },
+  {
+    "date": "2022-03-17T15:16:14.645Z",
+    "type": "subcomision",
+    "title": "subcomision n°3 derechos fundamentales n°4 jueves 17 de marzo",
+    "watch": "https://convencion.tv/video/subcomision-n3-derechos-fundamentales-n4-jueves-17-de-marzo-2022",
+    "download": "https://mdstrm.com/video/623350bec62ccb759c3439a1.mp4"
+  },
+  {
+    "date": "2022-03-17T03:35:50.926Z",
+    "type": "pleno",
+    "title": "pleno sesion n°69 miercoles 16 de marzo",
+    "watch": "https://convencion.tv/video/pleno-sesion-n69-miercoles-16-de-marzo-2022-1",
+    "download": "https://mdstrm.com/video/6232ac966f4696081d911948.mp4"
+  },
+  {
+    "date": "2022-03-16T22:53:53.258Z",
+    "type": "pleno",
+    "title": "pleno sesion n°69 miercoles 16 de marzo",
+    "watch": "https://convencion.tv/video/pleno-sesion-n69-miercoles-16-de-marzo-2022",
+    "download": "https://mdstrm.com/video/62326a81bec900082bb4a855.mp4"
+  },
+  {
+    "date": "2022-03-16T21:03:18.107Z",
+    "type": "otro",
+    "title": "clip elisa loncon miercoles 16 de marzo (no categorizar)",
+    "watch": "https://convencion.tv/video/clip-elisa-loncon-miercoles-16-de-marzo-2022-no-categorizar",
+    "download": "https://mdstrm.com/video/62325096d2717d08306ec310.mp4"
+  },
+  {
+    "date": "2022-03-16T20:25:45.675Z",
+    "type": "otro",
+    "title": "clip ruth hurtado miercoles 17 de marzo (no categorizar)",
+    "watch": "https://convencion.tv/video/clip-ruth-hurtado-miercoles-17-de-marzo-2022-no-categorizar",
+    "download": "https://mdstrm.com/video/623247c9f93e680837c34b99.mp4"
+  },
+  {
+    "date": "2022-03-16T20:20:26.208Z",
+    "type": "otro",
+    "title": "clip eduardo cretton miercoles 16 de marzo (no categorizar)",
+    "watch": "https://convencion.tv/video/clip-eduardo-cretton-miercoles-16-de-marzo-2022-no-categorizar",
+    "download": "https://mdstrm.com/video/6232468ad1982a6b848a98e9.mp4"
+  },
+  {
+    "date": "2022-03-16T17:18:24.178Z",
+    "type": "comision",
+    "title": "comision forma de estado nº51 miercoles 16 de marzo",
+    "watch": "https://convencion.tv/video/comision-forma-de-estado-n51-miercoles-16-de-marzo-2022",
+    "download": "https://mdstrm.com/video/62321be058b18108307f7f6d.mp4"
+  },
+  {
+    "date": "2022-03-16T16:51:54.143Z",
+    "type": "comision",
+    "title": "comision sistema politico nº50 miercoles 16 de marzo",
+    "watch": "https://convencion.tv/video/comision-sistema-politico-n50-miercoles-16-de-marzo-2022",
+    "download": "https://mdstrm.com/video/623215aa8a8f2f3c602830ff.mp4"
+  },
+  {
+    "date": "2022-03-16T16:44:13.169Z",
+    "type": "comision",
+    "title": "comision medio ambiente nº60 miercoles 16 de marzo",
+    "watch": "https://convencion.tv/video/comision-medio-ambiente-n60-miercoles-16-de-marzo-2022",
+    "download": "https://mdstrm.com/video/623213dd9864c10832c183a4.mp4"
+  },
+  {
+    "date": "2022-03-16T16:41:46.783Z",
+    "type": "subcomision",
+    "title": "subcomision n°4 derechos fundamentales n°3 miercoles 16 de marzo",
+    "watch": "https://convencion.tv/video/subcomision-n4-derechos-fundamentales-n3-miercoles-16-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6232134ad1982a6b848a9089.mp4"
+  },
+  {
+    "date": "2022-03-16T16:37:05.713Z",
+    "type": "subcomision",
+    "title": "subcomision n°3 derechos fundamentales n°3 miercoles 16 de marzo",
+    "watch": "https://convencion.tv/video/subcomision-n3-derechos-fundamentales-n3-miercoles-16-de-marzo-2022",
+    "download": "https://mdstrm.com/video/623212312a16a2083716034c.mp4"
+  },
+  {
+    "date": "2022-03-16T14:40:29.569Z",
+    "type": "comision",
+    "title": "comision sistemas de conocimientos n°58 miercoles 16 de marzo",
+    "watch": "https://convencion.tv/video/comision-sistemas-de-conocimientos-n58-miercoles-16-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6231f6dd5dc94c082226afc2.mp4"
+  },
+  {
+    "date": "2022-03-16T12:07:06.877Z",
+    "type": "otro",
+    "title": "convencion al dia martes 15 de marzo",
+    "watch": "https://convencion.tv/video/convencion-al-dia-martes-15-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6231d2ea496b2c0820f3246f.mp4"
+  },
+  {
+    "date": "2022-03-16T03:05:29.887Z",
+    "type": "pleno",
+    "title": "pleno sesion n°68 martes 15 de marzo",
+    "watch": "https://convencion.tv/video/pleno-sesion-n68-martes-15-de-marzo-2022-1",
+    "download": "https://mdstrm.com/video/623153f9579b6f08294a0fbe.mp4"
+  },
+  {
+    "date": "2022-03-16T01:30:46.680Z",
+    "type": "pleno",
+    "title": "pleno sesion n°68 martes 15 de marzo",
+    "watch": "https://convencion.tv/video/pleno-sesion-n68-martes-15-de-marzo-2022",
+    "download": "https://mdstrm.com/video/62313dc6d1982a6b848a635b.mp4"
+  },
+  {
+    "date": "2022-03-15T16:44:53.128Z",
+    "type": "comision",
+    "title": "comision medio ambiente n°59 martes 15 de marzo",
+    "watch": "https://convencion.tv/video/comision-medio-ambiente-n59-martes-15-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6230c2854659411030855d48.mp4"
+  },
+  {
+    "date": "2022-03-15T16:25:36.086Z",
+    "type": "comision",
+    "title": "comision sistemas de conocimientos n°57 martes 15 de marzo",
+    "watch": "https://convencion.tv/video/comision-sistemas-de-conocimientos-n57-martes-15-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6230be004659411030855ca5.mp4"
+  },
+  {
+    "date": "2022-03-15T16:16:01.264Z",
+    "type": "subcomision",
+    "title": "subcomision n°3 derechos fundamentales n°2 martes 15 de marzo",
+    "watch": "https://convencion.tv/video/subcomision-n3-derechos-fundamentales-n2-martes-15-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6230bbc1cbc89f34b78b0c59.mp4"
+  },
+  {
+    "date": "2022-03-15T16:14:41.843Z",
+    "type": "subcomision",
+    "title": "subcomision n°4 derechos fundamentales n°2 martes 15 de marzo",
+    "watch": "https://convencion.tv/video/subcomision-n4-derechos-fundamentales-n2-martes-15-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6230bb71cbc89f34b78b0c2c.mp4"
+  },
+  {
+    "date": "2022-03-15T15:58:50.609Z",
+    "type": "comision",
+    "title": "comision forma de estado n°50 martes 15 de marzo",
+    "watch": "https://convencion.tv/video/comision-forma-de-estado-n50-martes-15-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6230b7baaff33508249be4f6.mp4"
+  },
+  {
+    "date": "2022-03-15T15:41:35.391Z",
+    "type": "comision",
+    "title": "comision principios constitucionales n°52 martes 15 de marzo",
+    "watch": "https://convencion.tv/video/comision-principios-constitucionales-n52-martes-15-de-marzo-2022",
+    "download": "https://mdstrm.com/video/6230b3af1101290821042733.mp4"
+  },
+  {
     "date": "2022-03-15T00:58:21.607Z",
     "type": "comision",
     "title": "comision medio ambiente n°58 lunes 14 de marzo",
@@ -61,6 +558,13 @@
     "title": "comision medio ambiente n°58 lunes 14 de marzo",
     "watch": "https://convencion.tv/video/comision-medio-ambiente-n58-lunes-14-de-marzo-2022",
     "download": "https://mdstrm.com/video/622f6e65742cd1082fe6888e.mp4"
+  },
+  {
+    "date": "2022-03-14T16:01:50.008Z",
+    "type": "otro",
+    "title": "convencion al dia miercoles 09 de marzo",
+    "watch": "https://convencion.tv/video/convencion-al-dia-miercoles-09-de-marzo-2022",
+    "download": "https://mdstrm.com/video/622f66ee2e92c777a05b2133.mp4"
   },
   {
     "date": "2022-03-14T15:47:48.672Z",
