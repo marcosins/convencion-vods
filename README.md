@@ -6,10 +6,7 @@
 Pequeño script que parsea la página del [Archivo de Transmisiones de la Convención Constitucional](https://convencion.tv/archivo-transmisiones) para obtener información de cada transmisión.
 
 ## ¡DAME LOS VIDEOS!
-Si no quieres correr el script, puedes encontrar la lista de videos en 2 formatos:
-
-1. `CSV` ⬇️ [Descargar](videos/vods.csv)
-2. `JSON` ⬇️ [Descargar](videos/vods.json)
+Si no quieres correr el script, puedes encontrar la lista de videos en 2 formatos dentro de la carpeta [Videos](videos/)
 
 ---
 ## ¿Como usar?
