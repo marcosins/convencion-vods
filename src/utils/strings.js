@@ -14,14 +14,16 @@ function normalize(str) {
  */
 function getType(title) {
   const types = [
-    'subcomision',
+    'clip',
     'comision',
+    'convencion al dia',
+    'cuenta publica',
     'pleno',
-    'cuenta publica'
+    'subcomision'
   ];
   for (const type of types) {
     if (normalize(title).includes(type))
-      return type.replace(' ', '_');
+      return type.replace(/\s/g, '_');
   }
   return DEFAULT_VIDEO_TYPE;
 }
