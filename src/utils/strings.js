@@ -1,4 +1,4 @@
-const { DEFAULT_VIDEO_TYPE } = require('../config');
+const { VIDEO_TYPE_DEFAULT, VIDEO_TYPES } = require('../config');
 
 /**
  * Limpia los caracteres especiales de un `string`.
@@ -11,7 +11,7 @@ const { DEFAULT_VIDEO_TYPE } = require('../config');
  * @param {string} str Un `string` cualquiera con caracteres especiales
  * @returns {string} Un `string` limpio
  */
-function normalize(str) {
+function normalize (str) {
   return str
     .normalize('NFD') // Separa letras tildadas, ej: `â` -> `a` + `^`
     .replace(/\p{Diacritic}/gu, '') // Elimina caracteres diacríticos, ej: `^`
@@ -23,38 +23,29 @@ function normalize(str) {
  * @param {string} title El titulo de un sesion de la Convencion tal como viene desde la API de mediastream
  * @returns {string} Tipo de video de acuerdo al título
  */
-function getType(title) {
-  const types = [
-    'clip',
-    'comision',
-    'convencion al dia',
-    'cuenta publica',
-    'pleno',
-    'subcomision'
-  ];
-  for (const type of types) {
-    if (normalize(title).includes(type))
-      return type.replace(/\s/g, '_');
+function getType (title) {
+  for (const type of VIDEO_TYPES) {
+    if (normalize(title).includes(type)) { return type.replace(/\s/g, '_'); }
   }
-  return DEFAULT_VIDEO_TYPE;
+  return VIDEO_TYPE_DEFAULT;
 }
 
-function has2Spaces(txt) { return txt.includes('  '); }
+function has2Spaces (txt) { return txt.includes('  '); }
 
 /**
  * Elimina algunos caracteres especificos del titulo de una sesion
  * @param {string} title El titulo de un sesion de la Convencion tal como viene desde la API de mediastream
  * @returns {string} Titulo limpio
  */
-function cleanTitle(title) {
+function cleanTitle (title) {
   let titleClean = normalize(title)
     .replace('convencion constitucional', '')
     .replace('2021', '')
     .replace('2022', '')
     .replace(/-/g, ' ')
-    .replace(/\"/g, '')
-    .replace(/\'/g, '')
-    .replace(/\,/g, ' ');
+    .replace(/"/g, '')
+    .replace(/'/g, '')
+    .replace(/,/g, ' ');
   do {
     titleClean = titleClean.replace(/\s\s/g, ' ');
   } while (has2Spaces(titleClean));

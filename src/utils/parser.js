@@ -3,11 +3,11 @@ const { DEFAULT_FORMAT, MEDIASTREAM_API_URL } = require('../config');
 const { cleanTitle, getType } = require('./strings');
 const to = require('./transform');
 
-function getVideoInfo({ id, title, slug, date_created }) {
+function getVideoInfo ({ id, title, slug, date_created: created }) {
   const download = `https://mdstrm.com/video/${id}.mp4`;
   const watch = `https://convencion.tv/video/${slug}`;
   return {
-    date: new Date(date_created),
+    date: new Date(created),
     type: getType(title),
     title: cleanTitle(title),
     watch,
@@ -20,7 +20,7 @@ function getVideoInfo({ id, title, slug, date_created }) {
  * @param {string} format Formatos: `CSV`, `JSON` y `TEXT`. Ver `DEFAULT_FORMAT` en `config/index.js`
  * @returns Información de las sesiones en el formato solicitado
  */
-async function getVODS(format = DEFAULT_FORMAT) {
+async function getVODS (format = DEFAULT_FORMAT) {
   const { data: { data } } = await axios.get(MEDIASTREAM_API_URL);
   const vods = data.map(getVideoInfo);
 

@@ -1,6 +1,6 @@
 {
   "name": "convencion-vods",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Obtiene todas los links de descarga de todas las comisiones, subcomisiones y el pleno",
   "main": "src/index.js",
   "keywords": [
@@ -17,12 +17,15 @@
     "csv": "node . csv > videos/vods.csv",
     "json": "node . json > videos/vods.json",
     "text": "node . > videos/vods.txt",
-    "txt": "node . > videos/vods.txt"
+    "txt": "node . > videos/vods.txt",
+    "lint": "eslint ./src"
   },
   "dependencies": {
-    "axios": "^0.22.0"
+    "axios": "0.27.2"
   },
   "devDependencies": {
-    "eslint": "^7.32.0"
+    "eslint": "^8.16.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0"
   }
 }

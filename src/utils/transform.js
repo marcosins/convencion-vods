@@ -6,7 +6,7 @@ const { SEPARATOR, FORMAT_INDENT } = require('../config');
  * @param {function} 𝑓 Funcion que formatea la informacion de 1 video (Separado por `SEPARATOR`, Texto Plano, etc)
  * @returns {function} Funcion para usar en `Array.reduce`
  */
-function generateList(𝑓) {
+function generateList (𝑓) {
   return function (previous, current) { return `${previous}\n${𝑓(current)}`; };
 }
 
@@ -20,13 +20,15 @@ function generateList(𝑓) {
  * @param {string} vod.download
  * @returns Datos de un video deparados por coma (`,`)
  */
-function vodToCSV(vod) {
+function vodToCSV (vod) {
   const { date, type, title, watch, download } = vod;
-  return `${date.toISOString()}${SEPARATOR}` +
-    `${type}${SEPARATOR}` +
-    `${title}${SEPARATOR}` +
-    `${download}${SEPARATOR}` +
-    `${watch}`;
+  return [
+    `${date.toISOString()}`,
+    `${type}`,
+    `${title}`,
+    `${download}`,
+    `${watch}`
+  ].join(SEPARATOR);
 }
 
 /**
@@ -39,14 +41,16 @@ function vodToCSV(vod) {
  * @param {string} vod.download
  * @returns Listado de videos
  */
-function vodToTEXT(vod) {
+function vodToTEXT (vod) {
   const { date, type, title, watch, download } = vod;
   const timeOptions = { dateStyle: 'full', timeZone: 'America/Santiago' };
-  return `TITULO: ${title}\n` +
-    `SITIO OFICIAL: ${watch}\n` +
-    `ENLACE DESCARGA: ${download}\n` +
-    `TIPO: ${type}\n` +
-    `DISPONIBLE DESDE: ${new Intl.DateTimeFormat('es-CL', timeOptions).format(date)}\n`;
+  return [
+    `TITULO: ${title}`,
+    `SITIO OFICIAL: ${watch}`,
+    `ENLACE DESCARGA: ${download}`,
+    `TIPO: ${type}`,
+    `DISPONIBLE DESDE: ${new Intl.DateTimeFormat('es-CL', timeOptions).format(date)}`
+  ].join('\n').concat('\n');
 }
 
 /**
@@ -54,12 +58,14 @@ function vodToTEXT(vod) {
  * @param {[{date: Date, title: string, watch: string, download: string}]} vods
  * @returns {string} Lista de videos donde cada linea tiene datos separados por coma (`,`). Ver `SEPARATOR` en `config/index.js`
  */
-function toCSV(vods) {
-  const CSV_HEADER = `FECHA${SEPARATOR}` +
-    `TIPO${SEPARATOR}` +
-    `TITULO${SEPARATOR}` +
-    `DESCARGAR${SEPARATOR}` +
-    `SITIO OFICIAL CONVENCION`;
+function toCSV (vods) {
+  const CSV_HEADER = [
+    'FECHA',
+    'TIPO',
+    'TITULO',
+    'DESCARGAR',
+    'SITIO OFICIAL CONVENCION'
+  ].join(SEPARATOR);
   return vods.reduce(generateList(vodToCSV), CSV_HEADER);
 }
 
@@ -68,7 +74,7 @@ function toCSV(vods) {
  * @param {[{date: Date, title: string, watch: string, download: string}]} vods
  * @returns {string} JSON con identacion de 2 espacios
  */
-function toJSON(vods) {
+function toJSON (vods) {
   return JSON.stringify(vods, undefined, FORMAT_INDENT);
 }
 
@@ -77,7 +83,7 @@ function toJSON(vods) {
  * @param {[{date: Date, title: string, watch: string, download: string}]} vods
  * @returns {string} Informacion de los videos
  */
-function toTEXT(vods) {
+function toTEXT (vods) {
   return vods.reduce(generateList(vodToTEXT), '');
 }
 

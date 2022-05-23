@@ -70,6 +70,9 @@ Arreglo de videos donde cada elemento tiene los siguientes campo
   (...)
 ]
 ```
+# TODO
+
+[ ] Imprimir linea por linea en el archivo (csv o json) en lugar de usar la salida estandar para no consumir tanta memoria
 
 ---
 
