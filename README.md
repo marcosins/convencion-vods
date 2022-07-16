@@ -37,7 +37,7 @@ Luego elige de acuerdo a lo que quieras obtener:
 Incluye una cabecera en la primera fila
 
 - `FECHA`: Formato ISO
-- `TIPO`: Puede ser `subcomision`, `comision`, `pleno`, `cuenta_publica` u `otro`
+- `TIPO`: Puede ser 'clip', 'comision', 'convencion al dia', 'cuenta publica', 'pleno', 'subcomision' u `otro`
 - `TITULO`: Titulo con un poco de limpieza para quitar informacion redundante que ya está en los otros campos
 - `DESCARGAR`: Link de descarga desde `mediastream`
 - `SITIO OFICIAL CONVENCION`: Ver el video en `convencion.tv`
@@ -53,7 +53,7 @@ FECHA,TIPO,TITULO,DESCARGAR,SITIO OFICIAL CONVENCION
 Arreglo de videos donde cada elemento tiene los siguientes campo
 
 - `date`: Formato ISO
-- `type`: Puede ser `subcomision`, `comision`, `pleno`, `cuenta_publica` u `otro`
+- `type`: Puede ser 'clip', 'comision', 'convencion al dia', 'cuenta publica', 'pleno', 'subcomision' u `otro`
 - `title`: Titulo con un poco de limpieza para quitar informacion redundante que ya está en los otros campos
 - `watch`: Ver el video en `https://convencion.tv`
 - `download`: Link de descarga directa
